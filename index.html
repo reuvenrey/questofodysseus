@@ -1,0 +1,58 @@
+<!DOCTYPE html> <html lang="en">
+    <head id='pgHead'>
+	    <!--	<link rel='stylesheet' href='https://gcparksandresorts.github.io/careawayresort/files/header/headerStyle.css'> -->
+	    
+		<title>PAGE_TITLE | The Quest of Odysseus</title> <!-- Dont Forget the page title!! -->
+    </head>
+
+	<style>
+		#loader {position:fixed; top:0; bottom:0; left:0; right:0;
+			 background:black;
+			 z-index:998;
+			}
+		#loader > img {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:70%; max-width:700px; aspect-ratio:1/1;}
+		#loader > div {position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); width:70%; max-width:700px; aspect-ratio:1/1;
+			      	background: linear-gradient(-45deg, cyan,purple,red);
+				background-size: 200% 200%;
+				animation: gradient 5s ease infinite;
+			       	border: 3px solid black;
+			      }
+		#loader > h3 {position:absolute; bottom:20px; width:100%; text-align:center; margin:0;}
+		#header {}
+
+		@keyframes gradient {
+			0% {
+				background-position: 0% 50%;
+			}
+			50% {
+				background-position: 100% 50%;
+			}
+			100% {
+				background-position: 0% 50%;
+			}
+		}
+	</style>
+
+<body onload='finishLoad()'> 
+	
+	<div id='loader'>
+		<div></div>
+		<img src='https://github.com/reuvenrey/questofodysseus/blob/main/files/images/site/loadingImg.png?raw=true'>
+		<h3>Loading...</h3>
+	</div>
+	
+	<div id='header'></div>
+
+		<style>
+			
+		</style>
+
+		<!-- BODY CONTENT HERE -->
+            
+		
+		<!-- END OF BODY CONTENT -->
+
+	<div id='footer'></div>
+</body>
+    <!-- <script src="https://gcparksandresorts.github.io/careawayresort/files/header/headerScript.js"></script> -->
+</html>
